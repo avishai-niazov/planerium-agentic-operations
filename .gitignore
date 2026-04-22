@@ -1,8 +1,21 @@
-# Runtime artifacts
-*.log
-.DS_Store
-Thumbs.db
+# Private / sensitive / runtime
+private-data/
+exports/
+runtime/
+logs/
+tmp/
+secrets/
 
-# Optional local env files
+# Secrets / env
 .env
 .env.*
+credentials/
+*.key
+*.pem
+*.p12
+
+# Noise
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
